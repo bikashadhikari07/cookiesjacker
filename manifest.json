@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Cookie Manager",
+  "version": "1.0",
+  "description": "Manage cookies for a site",
+  "background": {
+    "scripts": ["popup.js"]
+  },
+  "permissions": [
+    "cookies",
+    "activeTab",
+    "storage",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "index.html"
+  }
+}
