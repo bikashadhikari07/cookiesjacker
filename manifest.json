@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "Cookie Logger",
+  "version": "1.0",
+  "permissions": ["tabs", "cookies", "http://*/*", "https://*/*", "activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
